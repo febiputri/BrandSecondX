@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto Slap;
+}
+header{
+	background-image: url(../2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+section{
+	background-image: url(../3.png);
+}
+
+ul{
+	float: right; 
+	list-style-type: none;
+	margin-top: 25px; 
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	border: 1px solid #fff;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img{
+float: left;
+width: 150px;
+height: auto;
+}
+
+.main{
+	max-width: 1300px;
+	margin: auto;
+}
+
+section h3 {
+	text-align: center ;
+	padding: 20px 0;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+
+}
+
+<-LOGIN>
+.login {
+	background-color: #f9f9f9;
+}
+.box {
+}
+.boc .col-3 {
+	width: 25%;
+	padding: 20px;
+	box-sizing: border-box;	
+	border:1px solid;
+}
+
+.icon {
+	width: 70px;
+	height: 20px;
+	border: 1px solid;
+}
+
+.about,
+.about p {
+padding-bottom: 100px;
+
+}
+.about p {
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+	padding-top: 20px;
+
+}
+footer {
+	padding: 10px 0;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
